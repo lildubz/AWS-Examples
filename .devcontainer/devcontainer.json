@@ -3,11 +3,13 @@
      "features": {
      "ghcr.io/devcontainers/features/aws-cli:1": {},
      "ghcr.io/devcontainers/features/powershell:2.0.3": {},
-     "ghcr.io/devcontainers/features/terraform:1": {}
+     "ghcr.io/devcontainers/features/terraform:1": {},
+     "ghcr.io/devcontainers/features/node:1": {}
     },
      "containerEnv": {
         "AWS_CLI_AUTO_PROMPT": "on-partial"
-     }
+     },
+     "postCreateCommand": "npm install -g aws-cdk"
    }
 
 
