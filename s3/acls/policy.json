@@ -1,0 +1,16 @@
+{
+  "Owner": {
+    "ID": "9b4abfbd4045e9b31232aff0dc9953625a24a83f4c7e689927bd49289e372368",
+    "DisplayName": "lily-admin"
+  },
+  "Grants": [
+    {
+      "Grantee": {
+        "Type": "CanonicalUser",
+        "ID": "2dc885f2177103cf3c665366ba4d328eccbb52463690be254a5e88cb74682bf8",
+        "DisplayName": "lily-admin2"
+      },
+      "Permission": "FULL_CONTROL"
+    }
+  ]
+}
