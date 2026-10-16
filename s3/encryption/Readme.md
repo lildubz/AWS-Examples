@@ -23,9 +23,9 @@ aws s3api put-object \
 ```
 
 
-### Put Object with SSE-C
+## Put Object with SSE-C
 
-## Newer S3 Buckets block SSE-C by default, update bucket's encryption config
+### Newer S3 Buckets block SSE-C by default, update bucket's encryption config
 
 ```sh
 aws s3api put-bucket-encryption --bucket encryption-fun-ld-1234 \
@@ -42,5 +42,4 @@ aws s3api put-object \
 --body hello.txt \
 --sse-customer-algorithm AES256 \
 --sse-customer-key $SSE_KEY
-
 ```
